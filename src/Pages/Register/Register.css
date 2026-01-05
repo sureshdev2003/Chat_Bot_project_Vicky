@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.signup-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1f2933);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Background effects */
+.bg-effects {
+  position: absolute;
+  inset: 0;
+  opacity: 0.15;
+}
+
+.blue-blob,
+.red-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(100px);
+}
+
+.blue-blob {
+  width: 300px;
+  height: 300px;
+  background: #3b82f6;
+  top: 50px;
+  left: 50px;
+}
+
+.red-blob {
+  width: 400px;
+  height: 400px;
+  background: #ef4444;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #60a5fa;
+}
+
+.logo-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #60a5fa, #2563eb);
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.logo-icon svg {
+  width: 24px;
+  fill: white;
+  transform: rotate(-45deg);
+}
+
+.logo h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #9ca3af;
+}
+
+/* Card */
+.signup-card {
+  background: #f9fafb;
+  padding: 32px;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 1;
+}
+
+.signup-card h2 {
+  margin-bottom: 24px;
+  color: #1f2933;
+}
+
+.signup-card input {
+  width: 100%;
+  padding: 14px 20px;
+  margin-bottom: 14px;
+  border-radius: 999px;
+  border: none;
+  outline: none;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.signup-card input:focus {
+  outline: 2px solid #3b82f6;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.signup-card button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-card button:hover {
+  transform: scale(1.02);
+}
+
+/* Social */
+.social-login {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.social-login button {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  font-size: 18px;
+}

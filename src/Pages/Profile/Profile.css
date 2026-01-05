@@ -1,0 +1,166 @@
+/* Layout */
+.profile-container {
+  display: flex;
+  height: 100vh;
+  background: #f9fafb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: linear-gradient(to bottom, #22d3ee, #06b6d4);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo */
+.logo-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.logo-box {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to bottom right, #2563eb, #1e40af);
+  border-radius: 12px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin: auto;
+}
+
+.logo-section h2 {
+  margin-top: 12px;
+  color: #1e3a8a;
+}
+
+.logo-section p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #155e75;
+}
+
+/* User Profile */
+.user-profile {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.user-avatar {
+  width: 120px;
+  height: 120px;
+  background: #4f46e5;
+  border-radius: 50%;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.user-profile h3 {
+  color: #111827;
+}
+
+/* Sidebar Buttons */
+.sidebar-buttons {
+  width: 100%;
+  margin-top: auto;
+}
+
+.sidebar-buttons button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 50px;
+}
+
+/* Vehicles */
+.vehicle-btn {
+  padding: 12px 20px;
+  background: white;
+  border: 2px solid #4f46e5;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #4f46e5;
+  cursor: pointer;
+}
+
+.vehicle-btn span {
+  margin-left: 10px;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.vehicle-dropdown {
+  margin-top: 10px;
+  background: white;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.vehicle-item {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.vehicle-item:hover {
+  background: #f3f4f6;
+}
+
+/* Cards */
+.card-grid {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-icon {
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.card button {
+  padding: 12px 40px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}

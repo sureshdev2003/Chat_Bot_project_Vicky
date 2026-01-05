@@ -1,0 +1,140 @@
+/* Page Background */
+.page-container {
+  min-height: 100vh;
+  background: #d4a574;
+  position: relative;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Header Buttons */
+.header-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.header-buttons button {
+  padding: 12px 28px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* Logo */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-icon {
+  width: 60px;
+  height: 60px;
+  background: #2563eb;
+  border-radius: 50%;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo h1 {
+  color: #2563eb;
+  font-size: 24px;
+}
+
+/* Form Section */
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 25px;
+  width: 800px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.form-row label {
+  width: 260px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+
+/* Submit Button */
+.submit-section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.submit-section button {
+  padding: 14px 60px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Popup */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background: white;
+  padding: 35px;
+  border-radius: 25px;
+  width: 400px;
+  text-align: center;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.popup-buttons button {
+  padding: 12px 40px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.settings-container {
+  display: flex;
+  height: 100vh;
+  background-color: #f9fafb;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 260px;
+  background: linear-gradient(to bottom, #22d3ee, #06b6d4);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo-box {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  margin: 0 auto 16px;
+}
+
+.logo-box svg {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  transform: rotate(-45deg);
+}
+
+.brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e40af;
+}
+
+.brand-tag {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #155e75;
+  margin-top: 4px;
+}
+
+/* Profile */
+.profile-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  background-color: #4f46e5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.profile-pic svg {
+  width: 60px;
+  height: 60px;
+  color: #fff;
+}
+
+.profile-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Sidebar Buttons */
+.sidebar-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar-buttons button {
+  padding: 12px;
+  background-color: #4f46e5;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sidebar-buttons button:hover {
+  background-color: #4338ca;
+  transform: scale(1.05);
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 60px;
+}
+
+.main-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+/* Form */
+.form-section {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.form-row label {
+  width: 300px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.form-row input {
+  flex: 1;
+  padding: 16px 20px;
+  border-radius: 14px;
+  border: 2px solid #9ca3af;
+  background-color: #e5e7eb;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-row input:focus {
+  border-color: #4f46e5;
+  background-color: #ffffff;
+}
